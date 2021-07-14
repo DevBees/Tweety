@@ -1,0 +1,78 @@
+.widgets{
+    flex: 0.25;
+}
+
+.widgets__input{
+    margin-left: 10%;
+    margin-top: 5px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    border: 1px solid var(--twitter-color);
+}
+
+.widgets__inputBox{
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.widgets__searchIcon {
+    margin-top: 11.5px !important;
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+}
+
+.widgets__searchIcon{
+    color: var(--twitter-color) !important;
+}
+
+.widgets__widgetContainer{
+    height: 74%;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 10%;
+    border: 1px solid var(--twitter-color) !important;
+    border-radius: 30px;
+}
+
+.widgets__widgetContainer > h2 {
+    padding: 15px;
+    font-size: 20px;
+    border-bottom: 1px solid var(--twitter-color);
+}
+
+.widgets__widgetNews{
+    padding: 15px;
+    border-bottom: 1px solid var(--twitter-color);
+    cursor: pointer;
+}
+
+.widgets__widgetNews > h3 {
+    color: var(--twitter-color);
+}
+
+.widgets__widgetNews > p {
+    font-size: 14px;
+    color: grey;
+}
+
+.widgets__widgetNews > h4{
+    color: gray;
+    font-size: 10px;
+}
+
+.widgets__widgetNews:hover {
+    background-color: whitesmoke;
+    transition: background-color 250ms ease-in-out;
+}
+
+.widgets__widgetContainer > h2 {
+    color: var(--twitter-color);
+}
+
+.widgets__widgetShow{
+    color: var(--twitter-color);
+    margin-top: 10px;
+    margin-left: 16px;
+}
